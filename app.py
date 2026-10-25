@@ -21,7 +21,7 @@ def home():
 
 # ✅ Valid API keys
 VALID_API_KEYS = {
-    "SUJEET"  # don't change warna api or bot dono nhi chalega 
+    "DN DEVIL"  # don't change warna api or bot dono nhi chalega 
 }
 
 # 🔢 Like limit tracking
