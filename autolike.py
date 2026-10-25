@@ -11,7 +11,7 @@ OWNER_USERNAME = "sujeetsahni143"
 OWNER_NAME = "SUJEET SAHANI"
 CHANNEL_USERNAME = "ngsujeet"
 # Set BOT_TOKEN in your environment; do not hard-code or share your Telegram token.
-TOKEN = os.getenv("BOT_TOKEN", "enter your bot token")
+TOKEN = os.getenv("BOT_TOKEN", "8999901355:AAFHkk_SSH_TdpPUs5BhpdkNUTgPd_LC3zU")
 API_URL = "https://ff-like-api-bot-eight.vercel.app/like?uid={uid}&region={region}&key=DN DEVIL"
 TIMEZONE = pytz.timezone("Asia/Kolkata")
 DATA_FILE = "likes_data.json"
