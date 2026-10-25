@@ -6,7 +6,7 @@ from apscheduler.triggers.cron import CronTrigger
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReactionTypeEmoji
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler
 
-OWNER_ID = 8085895119
+OWNER_ID = 8959773044
 OWNER_USERNAME = "sujeetsahni143"
 OWNER_NAME = "SUJEET SAHANI"
 CHANNEL_USERNAME = "ngsujeet"
