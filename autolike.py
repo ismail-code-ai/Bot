@@ -2,32 +2,7 @@ import json, logging, os, asyncio, html
 from datetime import datetime, timedelta
 import pytz, requests
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from apscheduler.triggers.cron import CronTrigger
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReactionTypeEmoji
-from telegram.ext import Application, CommandHandler, CallbackQueryHandler
-
-OWNER_ID = 8959773044
-OWNER_USERNAME = "sujeetsahni143"
-OWNER_NAME = "SUJEET SAHANI"
-CHANNEL_USERNAME = "ngsujeet"
-# Set BOT_TOKEN in your environment; do not hard-code or share your Telegram token.
-TOKEN = os.getenv("BOT_TOKEN", "8999901355:AAFHkk_SSH_TdpPUs5BhpdkNUTgPd_LC3zU")
-API_URL = "https://ff-like-api-bot-eight.vercel.app/like?uid={uid}&region={region}&key=DN DEVIL"
-TIMEZONE = pytz.timezone("Asia/Kolkata")
-DATA_FILE = "likes_data.json"
-USERS_FILE = "users_data.json"
-VERIFIED_FILE = "verified_users.json"
-CHANNELS = ["ngsujeet"]
-
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
-def load_data():
-    if os.path.exists(DATA_FILE):
-        with open(DATA_FILE) as f: return json.load(f)
-    return {}
-def save_data(d):
-    with open(DATA_FILE, "w") as f: json.dump(d, f, indent=2)
+th open(DATA_FILE, "w") as f: json.dump(d, f, indent=2)
 def load_users():
     if os.path.exists(USERS_FILE):
         with open(USERS_FILE) as f: return set(json.load(f))
